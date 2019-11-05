@@ -12,8 +12,13 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanZom/Natours.git"
+  },
   "author": "Jonas",
   "license": "ISC",
+  "homepage": "https://seanzom.github.io/nexter/",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
